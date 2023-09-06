@@ -1,0 +1,65 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;     
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    width: 100%;
+}
+
+.contenedor--input{
+    border: 1px solid black;
+    border-radius: 20px; 
+    padding: 20px 0;
+    max-width: 310px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap:10px;
+    margin-top: 20px;
+}
+
+.container--card{
+    border: 1px solid black;
+    border-radius: 20px; 
+    padding: 20px 0;
+    width: 90%;
+    max-width: 310px;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    gap:15px;  
+    display: none;  
+}
+
+.container--card__activo{
+    display: flex;
+}
+
+
+.input--ingreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+   
+
+}
+
+.contenedor--input small{
+
+    color: red;
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: center;
+}
